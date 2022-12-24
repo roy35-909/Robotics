@@ -17,8 +17,7 @@ SoftwareSerial mySerial(1,3);//tx,rx
 int buttonState = 0;
 Adafruit_MPU6050 mpu;
 
-int UpperThreshold = 518;
-int LowerThreshold = 490;
+
 int reading = 0;
 float BPM = 0.0;
 bool IgnoreReading = false;
